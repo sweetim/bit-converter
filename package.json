@@ -1,21 +1,22 @@
 {
-  "name": "convert",
-  "version": "1.0.0",
-  "description": "Convert array to byte, short or integer",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [
-      "convert",
-      "bit converter",
-      "byte converter",
-      "short",
-      "byte"
-  ],
-  "author": "Tim",
-  "license": "ISC",
-  "devDependencies": {
-    "mocha": "^2.4.5"
-  }
+    "name": "bit-converter",
+    "version": "1.0.0",
+    "description": "Convert array to byte, short or integer, API is based on C#",
+    "main": "index.js",
+    "scripts": {
+        "test": "./node_modules/.bin/mocha --check-leaks",
+        "test-watch": "./node_modules/.bin/mocha --check-leaks -w"
+    },
+    "keywords": [
+        "convert",
+        "bit converter",
+        "byte converter",
+        "short",
+        "byte"
+    ],
+    "author": "Tim",
+    "license": "ISC",
+    "devDependencies": {
+        "mocha": "^2.4.5"
+    }
 }
