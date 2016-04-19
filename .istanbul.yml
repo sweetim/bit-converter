@@ -1,0 +1,5 @@
+verbose: false
+instrumentation:
+    root: ./
+    extension: ['.js']
+    include-all-sources: true
