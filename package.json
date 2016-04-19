@@ -16,6 +16,13 @@
     "short",
     "byte"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sweetim/bit-converter"
+  },
+  "engines": {
+    "node": ">=4.0.0"
+  },
   "author": "Tim",
   "license": "ISC",
   "devDependencies": {
