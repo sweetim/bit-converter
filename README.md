@@ -31,19 +31,9 @@ console.log(b) // -1
 #### API
 
 ##### toByte(array[, startIndex])
-
-`array` the source array to be converted
-
-`startIndex` is the start index of the array
-
 ##### toShort(array[, startIndex])
-
-`array` the source array to be converted
-
-`startIndex` is the start index of the array
-
 ##### toInt(array[, startIndex])
 
 `array` the source array to be converted
 
-`startIndex` is the start index of the array
+`startIndex` is the start index of the array, default is `0`
