@@ -26,7 +26,7 @@
   "author": "Tim",
   "license": "ISC",
   "devDependencies": {
-    "codecov": "^1.0.1",
+    "codecov": "^3.6.5",
     "istanbul": "^0.4.3",
     "mocha": "^2.4.5"
   }
